@@ -8,7 +8,14 @@ module.exports = {
         'jet': "#323437",
         'atomic-tangerine': '#FF9357',
         'dark-gray': '#A8A8A8',
-        'vanta-black': '#010101'
+        'chrome-aluminum': '#A8A8AB',
+        'vanta-black': '#010101',
+        'lead': '#202020',
+        'vegan-mastermind': '#1EBA53',
+        'acid-pops': '#2FE76E',
+        'broken-tube': '#050211',
+        'waterloo': '#494950',
+        'dark-rift': "#050C15"
       },
       backgroundImage: {
         'hero-bg': "url('./public/images/hero-bg.jpg')",

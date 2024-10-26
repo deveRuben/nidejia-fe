@@ -35,3 +35,47 @@
     src: url("../public/fonts/Poppins/Poppins-Regular.ttf") format("woff2");
   }
 }
+
+.swiper-wrapper {
+  width: 100%;
+  height: max-content !important;
+  /* padding-bottom: 64px !important; */
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+.swiper-pagination-current {
+  color: #111827 !important;
+}
+.swiper-pagination-total {
+  color: #9ca3af;
+}
+
+.swiper-button-prev:after {
+  content: "";
+}
+.swiper-button-next:after {
+  content: "";
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #414141;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
